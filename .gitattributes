@@ -5,10 +5,12 @@
 
 *.html linguist-language=HTML
 *.html linguist-detectable=true
+*.html linguist-vendored=false
 
 *.css linguist-language=CSS
 *.css linguist-detectable=true
+*.css linguist-vendored=false
 
 # Exclude documentation and config files from language percentages
-*.json linguist-documentation
-*.md linguist-documentation
+*.json linguist-documentation=true
+*.md linguist-documentation=true

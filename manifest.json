@@ -5,6 +5,7 @@
   "permissions": ["storage", "tabs"],
   "host_permissions": ["https://*.youtube.com/*"],
   "background": {
+    "scripts": ["background.js"],
     "service_worker": "background.js"
   },
   "content_scripts": [
@@ -32,6 +33,12 @@
     },
     "default_title": "My YT Bookmarks",
     "default_popup": "popup.html"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "yt-bookmarker@amine-jelassi7",
+      "strict_min_version": "115.0"
+    }
   },
   "manifest_version": 3
 }

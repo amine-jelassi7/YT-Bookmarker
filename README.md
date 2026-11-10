@@ -9,13 +9,13 @@ A lightweight browser extension that lets you save timestamped bookmarks directl
 - **Timestamped Bookmarks:** Save your current playback position with a single click.
 - **Persistent Storage:** Bookmarks stay saved locally across browser restarts.
 - **Direct Navigation:** Jump straight to any saved point in a video.
-- **Cross-Browser Support:** Dedicated branches for Chromium (Chrome, Edge, Brave) and Mozilla (Firefox).
+- **Cross-Browser Support:** Works in Chromium browsers and Mozilla Firefox.
 
 ---
 
 ## Installation
 
-### 1. Chromium Browsers (Chrome, Edge, Brave, Opera)
+### Chromium Browsers (Chrome, Edge, Brave, Opera)
 
 1. Clone the `main` branch:
    ```bash
@@ -27,11 +27,11 @@ A lightweight browser extension that lets you save timestamped bookmarks directl
 
 ---
 
-### 2. Mozilla Firefox
+### Mozilla Firefox (115 or newer)
 
-1. Clone the `Mozilla` branch:
+1. Clone the repository:
    ```bash
-   git clone -b Mozilla https://github.com/amine-jelassi7/YT-Bookmarker.git
+   git clone https://github.com/amine-jelassi7/YT-Bookmarker.git
    ```
 2. Open Firefox and navigate to `about:debugging`.
 3. Click **This Firefox** on the left menu.

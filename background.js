@@ -7,9 +7,7 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
   chrome.tabs.sendMessage(tabId, {
     type: "NEW",
     videoId: url.searchParams.get("v"),
-  }, () => {
-    // A navigation may complete before the content script is ready. The content
-    // script also reads the current URL and handles YouTube's in-page navigation.
+  }, () => 
     void chrome.runtime.lastError;
   });
 });

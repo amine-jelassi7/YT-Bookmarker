@@ -1,4 +1,4 @@
-# YT-Bookmarker
+# YT-Bookmarker 
 
 A lightweight browser extension that lets you save timestamped bookmarks directly on YouTube videos and access them anytime—even after closing your browser tab.
 

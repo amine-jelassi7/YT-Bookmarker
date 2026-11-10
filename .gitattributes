@@ -1,6 +1,14 @@
-* text=auto
-*.js text eol=lf
-*.json text eol=lf
-*.html text eol=lf
-*.css text eol=lf
-*.md text eol=lf
+# Force primary extension code to be detected and counted
+*.js linguist-language=JavaScript
+*.js linguist-detectable=true
+*.js linguist-vendored=false
+
+*.html linguist-language=HTML
+*.html linguist-detectable=true
+
+*.css linguist-language=CSS
+*.css linguist-detectable=true
+
+# Exclude documentation and config files from language percentages
+*.json linguist-documentation
+*.md linguist-documentation
